@@ -4,22 +4,9 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Filestack Demo",
   description: "Filestack demo with examples",
+  lastUpdated: true,
   themeConfig: {
-    nav: [
-      { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
-    ],
-
-    sidebar: [
-      {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
-      },
-    ],
-
+    nav: [{ text: "Home", link: "/" }],
     socialLinks: [
       { icon: "github", link: "https://github.com/baumannzone/filestack-demo" },
       { icon: "twitter", link: "https://twitter.com/baumannzone" },
