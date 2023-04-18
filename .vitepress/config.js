@@ -45,11 +45,11 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       {
-        text: "Image transformations",
+        text: "Transformations",
         link: "/image-transformations",
       },
       {
-        text: "Image borders and effects",
+        text: "Borders and effects",
         link: "/image-borders-and-effects",
       },
     ],
