@@ -54,7 +54,10 @@ export default defineConfig({
       },
     ],
     socialLinks: [
-      { icon: "github", link: "https://github.com/baumannzone/filestack-demo" },
+      {
+        icon: "github",
+        link: "https://github.com/baumannzone/filestack-demo-vp",
+      },
       { icon: "twitter", link: "https://twitter.com/baumannzone" },
       { icon: "instagram", link: "https://instagram.com/baumannzone" },
     ],
